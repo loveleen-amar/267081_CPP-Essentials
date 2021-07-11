@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/training/Downloads/set-3/Employee/Employee.cpp
+iostream
+-
+Employee.h
+/home/training/Downloads/set-3/Employee/Employee.h
+Engineer.h
+/home/training/Downloads/set-3/Employee/Engineer.h
+Trainee.h
+/home/training/Downloads/set-3/Employee/Trainee.h
+Manager.h
+/home/training/Downloads/set-3/Employee/Manager.h
+
+/home/training/Downloads/set-3/Employee/Employee.h
+
+/home/training/Downloads/set-3/Employee/EmployeeTest.cpp
+gtest/gtest.h
+-
+Employee.cpp
+/home/training/Downloads/set-3/Employee/Employee.cpp
+Manager.h
+/home/training/Downloads/set-3/Employee/Manager.h
+Trainee.h
+/home/training/Downloads/set-3/Employee/Trainee.h
+Engineer.h
+/home/training/Downloads/set-3/Employee/Engineer.h
+
+/home/training/Downloads/set-3/Employee/Engineer.h
+Employee.h
+/home/training/Downloads/set-3/Employee/Employee.h
+
+/home/training/Downloads/set-3/Employee/Manager.h
+Employee.h
+/home/training/Downloads/set-3/Employee/Employee.h
+
+/home/training/Downloads/set-3/Employee/Trainee.h
+Employee.h
+/home/training/Downloads/set-3/Employee/Employee.h
+
